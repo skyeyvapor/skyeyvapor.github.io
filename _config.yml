@@ -6,17 +6,17 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Hyde
+title:            skyeyvapor's Tech Note
 tagline:          'A Jekyll theme'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+url:              
+baseurl:          
 
 author:
   name:           'Ching-Lan Chen'
   url:            https://twitter.com/skyeyvapor
 
-paginate:         5
+#paginate:         5
 
 # Custom vars
 version:          2.1.0
