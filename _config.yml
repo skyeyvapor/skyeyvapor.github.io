@@ -9,15 +9,15 @@ permalink:        pretty
 title:            skyeyvapor's Tech Note
 tagline:          'A Jekyll theme'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              
-baseurl:          
+url:              http://skyeyvapor.github.io
+baseurl:          /hyde
 
 author:
   name:           'Ching-Lan Chen'
   url:            https://twitter.com/skyeyvapor
 
 paginate:         5
-gems:             [jekyll-paginate]
+
 
 # Custom vars
 version:          2.1.0
@@ -25,3 +25,5 @@ version:          2.1.0
 github:
   repo:           https://github.com/skyeyvapor
 
+# Gems
+gems:             [jekyll-paginate]
