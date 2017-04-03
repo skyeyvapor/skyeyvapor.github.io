@@ -16,10 +16,12 @@ author:
   name:           'Ching-Lan Chen'
   url:            https://twitter.com/skyeyvapor
 
-#paginate:         5
+paginate:         5
+gems:             [jekyll-paginate]
 
 # Custom vars
 version:          2.1.0
 
 github:
   repo:           https://github.com/skyeyvapor
+
