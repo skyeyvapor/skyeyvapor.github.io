@@ -11,7 +11,6 @@ tagline:          "skyeyvapor's github io"
 description:      'Notes, articles and experiences of my computer science learning paths.'
 url:              http://skyeyvapor.github.io
 baseurl:          /
-
 author:
   name:           'Ching-Lan Chen'
   url:            https://twitter.com/skyeyvapor
