@@ -15,7 +15,24 @@ title: Home
     <span class="post-date">Posted by skyeyvapor on {{ post.date | date: '%B %d, %Y' }}</span>
 
     {{ post.excerpt }}
-    <a href="http://skyeyvapor.github.io{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">DISQUSWIDGETS.getCount({reset: true}); Comments</a>
+
+    </br>
+
+    <div class="post-tag">
+      <span class="fa-stack fa-sm">
+        <i class="fa fa-tags fa-stack-1x"></i>
+      </span>
+      Tags : 
+      {% for tag in post.tags %}
+        <a class="tag-wrapper" href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">
+          <span class="tags">{{ tag }}</span>
+        </a>  
+        {% if forloop.last != true %} 
+        {% endif %} 
+      {% endfor %}
+    </div><a href="http://skyeyvapor.github.io{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">DISQUSWIDGETS.getCount({reset: true}); Comments</a>
+
+    
     <hr>
   </div>
   {% endfor %}

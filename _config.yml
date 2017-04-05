@@ -7,7 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            skyeyvapor's Tech Note
-tagline:          'A Jekyll theme'
+tagline:          "skyeyvapor's github io" 
 description:      'Notes, articles and experiences of my computer science learning paths.'
 url:              http://skyeyvapor.github.io
 baseurl:          /
