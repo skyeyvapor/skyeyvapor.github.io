@@ -3,6 +3,7 @@ layout: post
 title: Example content
 excerpt: Example content
 comments: true
+author: skyeyvapor
 ---
 
 

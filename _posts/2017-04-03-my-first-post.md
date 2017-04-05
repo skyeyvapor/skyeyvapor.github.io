@@ -4,6 +4,7 @@ title: My first post
 excerpt: 我的第一個post
 comments: true
 tags: Jekyll
+author: skyeyvapor
 ---
 
 My [GitHub Blog](http://skyeyvapor.github.io).
