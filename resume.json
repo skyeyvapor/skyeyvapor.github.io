@@ -1,0 +1,179 @@
+{
+  "basics": {
+    "name": "Ching-Lan Chen",
+    "label": "Software Engineer",
+    "picture": "https://avatars0.githubusercontent.com/u/7366761?v=3&u=9d18cfff31d214ddc2ee34da4ba86090c29c0520&s=400",
+    "email": "clchen@ucdavis.edu",
+    "phone": "(530) 601-8982",
+    "website": "https://skyeyvapor.github.io",
+    "summary": "Ching-Lan hails from Tainan. He has earned his MS degree from the UC Davis. (Go Aggies!) He is a U.S. lawful permanent resident actively looking for a full time entry level software engineer position in North America. While he is engaging in improving his coding skills for job interviews recently, he keeps building a credit card calendar tool for his interests. Also, learning other computer science related subjects such as machine learning and getting hands-on experience in coding are important to him in his free time. Since he got into the computer science field relatively late (since he enrolled in graduate school), he has to be more dedicated and self-motivated than others.",
+    "location": {
+      "address": "1543 Santa Rosa St",
+      "postalCode": "CA 95616",
+      "city": "Davis",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "skyeyvapor",
+        "url": "https://github.com/skyeyvapor"
+      },
+      {
+        "network": "Instagram",
+        "username": "skyeyvapor",
+        "url": "https://www.instagram.com/skyeyvapor"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Credit Calendar Application",
+      "position": "",
+      "website": "",
+      "startDate": "2017-02",
+      "endDate": "present",
+      "summary": "Swift, Python/Flask, Javacript/React",
+      "highlights": [
+        "Developing an iOS app for credit card monitoring including billing cycles and bonus notifications."
+      ]
+    },
+    {
+      "company": "SINCERE iOS Application Graduate Project",
+      "position": "",
+      "website": "",
+      "startDate": "2015-12",
+      "endDate": "2016-03",
+      "summary": "Swift, Python",
+      "highlights": [
+        "Developed an iOS app using Swift to present the interactive Facebook post data from sincere.se database on mobile platform.",
+        "Instantly fetching data through backend search engine on Flask from database and connecting to iOS app."
+      ]
+    },
+    {
+      "company": "Generalized Biped Locomotion Control Project",
+      "position": "",
+      "website": "",
+      "startDate": "2014-09",
+      "endDate": "2014-12",
+      "summary": "OpenGL, C++",
+      "highlights": [
+        "Implemented the real-time physics-based character animation using C++/OpenGL based on the SimBiCon model [Yin et al. 2007].",
+        " Improved the control strategies of the system and extended user-friendly functions."
+      ]
+    },
+    {
+      "company": "Stack Overflow Statistical Analysis Project",
+      "position": "",
+      "website": "",
+      "startDate": "2014-04",
+      "endDate": "2014-06",
+      "summary": "Javascript/D3.js",
+      "highlights": [
+        "Used Javascript/D3.js to visualize the statistical analysis for the dataset.",
+        "Developed predictive modeling on regularities among popular posts and comments of Stack Overflow."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "UC Davis",
+      "position": "ECS 260 Software Engineering Teaching Assistant",
+      "website": "http://web.cs.ucdavis.edu/~rubio/courses/ecs260-f15/",
+      "startDate": "2015-04",
+      "endDate": "2015-12",
+      "summary": "Concept of software testing and debugging with topics including black-box testing (random testing, differential testing), white-box testing (symbolic execution), model checking, and automated debugging.",
+      "highlights": [
+        "Designed and tested the content of projects which included the implementation of KLEE symbolic virtual machine and LLVM compiler infrastructure, and the usage of Vagrant and Docker virtual machine."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Davis",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2013-09-01",
+      "endDate": "2016-03-31",
+      "gpa": "3.75",
+      "courses": []
+    },
+    {
+      "institution": "National Cheng Kung University",
+      "area": "Systems and Naval Mechatronic Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2006-09",
+      "endDate": "2011-06",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Pro",
+      "level": "Proficient",
+      "keywords": [
+        "Python",
+        "Swift",
+        "JAVA",
+        "Javascript",
+        "C++"
+      ]
+    },
+    {
+      "name": "General Knowledge",
+      "level": "Proficient",
+      "keywords": [
+        "Linux",
+        "Git",
+        "MySQL",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "Proficient",
+      "keywords": [
+        "Photoshop",
+        "Sketch"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Taiwanese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Instruments",
+      "keywords": [
+        "Guitar",
+        "Piano"
+      ]
+    },
+    {
+      "name": "Interests",
+      "keywords": [
+        "Programming",
+        "Photography",
+        "Cooking",
+        "Movie",
+        "Manga"
+      ]
+    }
+  ],
+  "references": []
+}
