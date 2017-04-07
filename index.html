@@ -2,8 +2,10 @@
 layout: default
 title: Home
 ---
+<!-- count.js -->
 <script id="dsq-count-scr" src="//skyeyvapor.disqus.com/count.js" async></script>
 <div class="posts">
+
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
@@ -12,11 +14,14 @@ title: Home
       </a>
     </h1>
 
-    
+    <!-- Excerpt -->
+    {% if post.excerpt %}
+        <p class="post-excerpt">
+            {{ post.excerpt }}
+        </p>
+    {% endif %}
 
-    {{ post.excerpt }}
-
-    </br>
+    <!-- Tags and comments count -->
     <div class="post-info">
       <span class="post-date">Posted by {{ post.author }} on {{ post.date | date: '%B %d, %Y' }}</span>
       
@@ -38,11 +43,10 @@ title: Home
           <i class="fa fa-comments fa-stack-1x">
           </i>
         </span>
-        <a href="http://skyeyvapor.github.io{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">DISQUSWIDGETS.getCount({reset: true}); Comments</a>
+        <a href="http://skyeyvapor.github.io{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
       </div>
     </div>
     
-    <hr>
   </div>
   {% endfor %}
 </div>
