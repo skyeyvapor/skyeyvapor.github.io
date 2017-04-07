@@ -1,34 +1,35 @@
 @font-face {
-  font-family: 'Abril Fatface';
+  font-family: 'AbrilFatface-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url(./fonts/AbrilFatface-Regular.otf) format('opentype');
+  src: url(fonts/AbrilFatface-Regular.otf) format('opentype');
 }
 /* chocolate Sidebar */
 
 .theme-base-chocolate .sidebar {
-    background-color: #edc951;
-    color: #655643;
+    background-color: #b3c452;
+    color: #684747;  /*text color*/
 }
 .theme-base-chocolate .sidebar a {
-    color: #655643;
+    color: #684747;
     font-weight: bold;
 }
 .theme-base-chocolate .sidebar a:hover {
-    color: #bf4d28;
+    color: #b4b0b8;
 }
-.theme-base-chocolate .sidebar-nav a.active {
+.theme-base-chocolate .sidebar-nav a.active {  /*如果在同頁面的話，不text-deco*/
     text-decoration: none;
 }
-.theme-base-chocolate .sidebar h1 a {
-    color: #655643;
-    font-size: 2.6rem;  /* tech note size*/
+.theme-base-chocolate .sidebar h1 a {  /* tech note */
+    font-family: 'Rock Salt', cursive;
+    color: #684747;
+    font-size: 2rem;  /* tech note size*/
 }
-.theme-base-chocolate .sidebar h1 a:hover {
-    color: #655643;
+.theme-base-chocolate .sidebar h1 a:hover {  /*hover: 划入*/
+    color: #b4b0b8;
     text-decoration: none;
 }
-.theme-base-chocolate .sidebar-nav {
+.theme-base-chocolate .sidebar-nav {  /*導覽區到上面元件的高度*/
     margin-top: 1rem;
 }
 .theme-base-chocolate .list-inline {
@@ -39,18 +40,20 @@
 .theme-base-chocolate .list-inline li {
     display: inline-block;
 }
+
 .theme-base-chocolate .list-inline .fa-circle {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);  /*圓的顏色*/
 }
 .theme-base-chocolate .list-inline a:hover .fa-circle {
-    color: #655643;
+    color: #684747;  /*划入變text的顏色*/
 }
 .theme-base-chocolate .list-inline .fa-stack-1x {
-    color: #655643;
+    color: #684747;  /*原本是text的顏色*/
 }
 .theme-base-chocolate .list-inline a:hover .fa-stack-1x {
-    color: #edc951;
+    color: #b3c452;  /*划入變背景色*/
 }
+
 .theme-base-chocolate .copyright {
     margin-bottom: 0;
     font-size: 0.5rem;
@@ -58,7 +61,7 @@
 .theme-base-chocolate .sidebar p.lead {
     font-size: 1rem;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {  /*767內會消失*/
     .theme-base-chocolate .sidebar {
         display: none;
     }
@@ -68,35 +71,47 @@
 
 .theme-base-chocolate .navbar {
     display: none;
-    position: fixed;
+    position: absolute;
     width: 100%;
     margin-bottom: 20px;
-    background-color: #edc951;
-    color: #655643;
+    background-color: #b3c452;
+    color: #684747;
     z-index: 10;
     text-align: center;
 }
 .theme-base-chocolate .navbar h1 {
-    font-size: 2rem;  /* tech note size */
-    font-family: "Abril Fatface", serif;
+    font-size: 1.3rem;  /* tech note size */
+    font-family: 'Rock Salt', cursive;
 }
 .theme-base-chocolate .navbar a {
     display: inline-block;
-    color: #655643;
+    color: #684747;
     text-decoration: none;
-    margin: 0 10px;
-    margin-bottom: 5px;
+    margin: 0 10px; /*順序上右下左*/
+    margin-bottom: 1px;
 }
 .theme-base-chocolate .navbar a.home-logo {
     margin: 0 auto;
     float: none;
 }
-@media screen and (max-width: 767px) {
+.theme-base-chocolate .fa-circle {
+    color: rgba(255, 255, 255, 0.5);  /*圓的顏色*/
+}
+.theme-base-chocolate a:hover .fa-circle {
+    color: #684747;  /*划入text的顏色*/
+}
+.theme-base-chocolate  .fa-stack-1x {
+    color: #684747;  /*原本是text的顏色*/
+}
+.theme-base-chocolate a:hover .fa-stack-1x {
+    color: #b3c452;  /*划入變背景色*/
+}
+@media screen and (max-width: 767px) { /*最大767內會佔據*/
     .theme-base-chocolate .navbar {
         display: block;
     }
     .theme-base-chocolate .content {
-        padding-top: 5.5rem;
+        padding-top: 7rem;
     }
 }
 /* End of Navbar */
@@ -128,11 +143,11 @@
     margin-top: 0.5rem;
 }
 .theme-base-chocolate .post .post-title a {
-    color: #2a363b;
+    color: #161416;
 }
 .theme-base-chocolate .post .post-title a:hover {
     text-decoration: none;
-    color: #bf4d28;
+    color: #B4B0B8;
 }
 .theme-base-chocolate a.pagination-item:hover {
     background-color: #bf4d28;
@@ -148,6 +163,7 @@
 .theme-base-chocolate .newer {
     float: right;
 }
+
 @media (max-width: 480px) {
     .theme-base-chocolate .pagination-item {
         margin-top: 30px;
@@ -247,9 +263,9 @@
     font-size: 2.2rem;
     color: #3f4551;
 }
-.theme-base-chocolate ::selection {
+.theme-base-chocolate ::selection {  /*滑鼠拖曳選擇*/
     color: white;
-    background-color: #bf4d28;
+    background-color: #161416;
 }
 .theme-base-chocolate a.tag-wrapper {
     margin-left: 3px;
@@ -260,12 +276,12 @@
     margin-left: -10px;
     margin-right: -5px;
 }
-.theme-base-chocolate .tags {
+.theme-base-chocolate .tags {  /* 標籤在這 */
     border-radius: 5px;
     padding: .2em .6em .3em;
     font-size: 14px;
     font-weight: bold;
-    background-color: #268bd2;
+    background-color: #E85656;
     color: white;
     font-style: normal;
     opacity: 0.7;
