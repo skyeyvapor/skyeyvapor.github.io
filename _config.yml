@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+gems:             [jekyll-paginate]
 
 # Permalinks
 permalink:        pretty
@@ -12,17 +13,14 @@ description:      'Notes, articles and experiences of my computer science learni
 url:              http://skyeyvapor.github.io
 baseurl:          /
 author:
-  name:           'Ching-Lan Chen'
-  url:            https://twitter.com/skyeyvapor
+name:             'Ching-Lan Chen'
+url:              https://twitter.com/skyeyvapor
 
 paginate:         5
 
 
 # Custom vars
-version:          2.1.0
 
-github:
-  repo:           https://github.com/skyeyvapor
-
-# Gems
-gems:             [jekyll-paginate]
+repo:             https://github.com/skyeyvapor
+github_username:  skyeyvapor
+instagram_username:      skyeyvapor  
