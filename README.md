@@ -25,7 +25,7 @@ skyeyvapor.github.io/
 ├── atom.xml
 ├── CNAME  # 放自己網域
 ├── index.html  # layout: default  
-                # 掌控首頁右半部的顯示：posts, pagination
+|               # 掌控首頁右半部的顯示：posts, pagination
 ├── LICENSE.md
 ├── README.md
 ├── .gitignore  # gp_pages/  # _site/
