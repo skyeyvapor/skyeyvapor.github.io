@@ -30,13 +30,38 @@
   "work": [
     {
       "company": "Credit Calendar Application",
-      "position": "",
-      "website": "",
+      "position": "Full Stack Software Engineer",
+      "website": "https://appsto.re/us/g5zWkb.i",
       "startDate": "2017-02",
       "endDate": "present",
       "summary": "Swift, Python/Flask, Javacript/React",
       "highlights": [
-        "Developing an iOS app for credit card monitoring including billing cycles and bonus notifications."
+        "Performed in a full-stack developer role independently on the iOS app, which allows users to manage their credit card, billing cycle, and annual fee reminder with a calendar. Featured with latest news, crawled from Doctor of Credit (www.doctorofcredit.com) to increase daily app stickiness and improve user experience.",
+        "Designed app’s framework and GUI supported in iOS 10 on MVC architecture. Implemented the calendar using JTAppleCalendar, database on app’s side using Realm, ads using AdMob, backup mechanism and user account management using Facebook and Google’s API on Firebase.",
+        "Cloud server and data management and via Firebase. Updated and backed up DOC’s news to server using Node.js script.",
+        "Successfully submitted multiple updates to App Store and keep developing."
+      ]
+    },
+    {
+      "company": "Machine Learning Project",
+      "position": "",
+      "website": "",
+      "startDate": "2017-09",
+      "endDate": "present",
+      "summary": "Python 3.6, TensorFlow",
+      "highlights": [
+        "Practiced machine learning with astronomy data, and visualized it using NumPy, Matplotlib"
+      ]
+    },
+    {
+      "company": "Github.io Project",
+      "position": "",
+      "website": "https://skyeyvapor.github.io/",
+      "startDate": "2017-01",
+      "endDate": "present",
+      "summary": "Git, Jekyll",
+      "highlights": [
+        "Used Jekyll to build a personal github.io and customized resume"
       ]
     },
     {
@@ -54,7 +79,7 @@
     {
       "company": "Generalized Biped Locomotion Control Project",
       "position": "",
-      "website": "",
+      "website": "https://youtu.be/ip_w3Xf59O0",
       "startDate": "2014-09",
       "endDate": "2014-12",
       "summary": "OpenGL, C++",
@@ -97,7 +122,7 @@
       "startDate": "2013-09-01",
       "endDate": "2016-03-31",
       "gpa": "3.75",
-      "courses": []
+      "courses": ["Advanced Operating Systems", "Analysis of Algorithms", "Character Animation", "Computer Architecture", "Operating Systems", "Programming Languages", "Theory of Computation", "Topics in Methods for Social Computing"]
     },
     {
       "institution": "National Cheng Kung University",

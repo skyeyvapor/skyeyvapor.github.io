@@ -1,9 +1,16 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
-gems:             [jekyll-paginate]
+#markdown:         kramdown
+#highlighter:      rouge
+#gems:             [jekyll-paginate]
 
-# Permalinks
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Permalinks  Permalink 影響著部落格文章網址的顯示方式，Jekyll 提供三種選擇：
 permalink:        pretty
 
 # Setup
@@ -11,7 +18,7 @@ title:            skyeyvapor's Tech Note
 tagline:          "skyeyvapor's github io" 
 description:      'Notes, articles and experiences of my computer science learning paths.'
 url:              http://skyeyvapor.github.io
-baseurl:          /
+baseurl: / # the subpath of your site, e.g. /blog
 author:
 name:             'Ching-Lan Chen'
 url:              https://twitter.com/skyeyvapor

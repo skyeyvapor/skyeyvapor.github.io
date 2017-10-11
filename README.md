@@ -1,5 +1,3 @@
-## Skeleton
-```
 skyeyvapor.github.io/
 ├── _includes/
 │   ├── comments.html
@@ -31,4 +29,3 @@ skyeyvapor.github.io/
 ├── README.md
 ├── .gitignore  # gp_pages/  # _site/
 └── tagcloud.md
-```
