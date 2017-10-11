@@ -18,7 +18,7 @@ title:            skyeyvapor's Tech Note
 tagline:          "skyeyvapor's github io" 
 description:      'Notes, articles and experiences of my computer science learning paths.'
 url:              http://skyeyvapor.github.io  # 放在github上要/才能css找的到
-baseurl:  # the subpath of your site, e.g. /blog
+baseurl:  ""# the subpath of your site, e.g. /blog
 author:  'Ching-Lan Chen'
 name:             'Ching-Lan Chen'
 url:              https://twitter.com/skyeyvapor
